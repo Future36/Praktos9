@@ -1,0 +1,111 @@
+ÎÊï¾   ‘   lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet          PADPADPr})’<©ıÆ‚+T¦üQq,JZH]pW   v      •   8       œ  a p p . b a m l     m a i n w i n d o w . b a m l }  m e s s a g e s . b a m l }  r e a d m a i l . b a m l ”  s e n d m a i l . b a m l    u s e r w i n d o w . b a m l Q-  !x     M S B A M L   `   `   `  ÿÿÿÿ@  <MailClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'clr-namespace:MailClient
+MailClient  5          MailClient.App   5      R NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35W SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\ XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35D 9http://schemas.microsoft.com/winfx/2006/xaml/presentation    5      R NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:x,http://schemas.microsoft.com/winfx/2006/xaml     5      _ [MaterialDesignThemes.Wpf, Version=4.9.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962aFmaterialDesign1http://materialdesigninxaml.net/winfx/xaml/themes  5      $localclr-namespace:MailClient  5        ôÿ 	Resources  5       ôı MergedDictionaries ôı Sourceôı 5   
+    5	      ôı 5
+      $h bpack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml?ı6%   %    5      5      !û	     M S B A M L   `   `   `  ÿÿÿÿ	  MailClient    MailClient.MainWindow   5   	   R NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35W SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\ XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35D 9http://schemas.microsoft.com/winfx/2006/xaml/presentation    5   	   R NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:x,http://schemas.microsoft.com/winfx/2006/xaml     5   	     ı Title$  
+MainWindow™ı5   	   $	Ñÿ550¤ş6   $	Çÿ800¤ş6)    ı WindowStartupLocation$ CenterScreen=ÿ5   	   .òÿ5      ÿ ªÿè#121212 ÿ RowDefinitions 5   
+   ãı 5      $¢ÿ80 ÿ6   ãı 5	      $¢ÿ* ÿ6   .+ÿ5   
+   Îÿ $Áÿ0Åş6   üÿè#2121216   ‚ı 5   
+   $Áÿ0Åş6   $’ÿ
+MailClient™ı6!   $ĞÿCenter=ÿ63   $ÈÿCenter=ÿ6P   $—ÿ24(ÿ6k   
+“ÿèÿÿÿÿ6y   ÿ 5   
+   $Áÿ1Åş6   $Ïÿ60,60,60,40qı6    5      ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    ãı 5      $¢ÿ40 ÿ6    .+ÿ5      ‚ı $Áÿ0Åş6   $’ÿĞ­Ğ». Ğ¿Ğ¾Ñ‡Ñ‚Ğ°™ı6%   
+“ÿèÿÿÿÿ$—ÿ14(ÿ6I   $ÈÿCenter=ÿ6W   ı 5      -   5         ıName$ MailClientTextBox™ı5      $Áÿ1Åş6,   $äÿ14(ÿ69   $ÈÿCenter=ÿ6G   $æÿ1qı6b   èÿè#212121
+àÿèÿÿÿÿ6‹   ‚ı 5      $Áÿ2Åş6   $’ÿĞŸĞ°Ñ€Ğ¾Ğ»ÑŒ™ı6%   
+“ÿèÿÿÿÿ$—ÿ14(ÿ6F   $ÈÿCenter=ÿ6T   Gş 5      -   5         GşName$ passwordBox™ı5      $Áÿ3Åş6/   $äÿ14(ÿ6<   $ÈÿCenter=ÿ6J   $æÿ1qı6e   èÿè#212121
+àÿèÿÿÿÿ6   ‚ı 5!      $Áÿ4Åş6   $’ÿĞ¯Ñ‰Ğ¸Ğº™ı6%   
+“ÿèÿÿÿÿ$—ÿ14(ÿ6D   $ÈÿCenter=ÿ6R   ¤ÿ 5"      -   5         ¤ÿName$ comboBox™ı5"      $Áÿ5Åş6)   $äÿ14(ÿ66   $ÈÿCenter=ÿ6D   $æÿ1qı6_   èÿè#212121àÿè#212121.@ÿ5#      £ÿ $òÿGoogle™ı6   
+ ÿ Tag$ imap.gmail.com™ı60   £ÿ 5$      $
+òÿMail™ı6   $ imap.mail.ru™ı6.   £ÿ 5%      $òÿYandex™ı6   $ imap.yandex.ru™ı60   £ÿ 5&      $òÿRambler™ı6   $ imap.rambler.ru™ı61   5'      Éÿ 5)      -   5         ÉÿName$ Enter™ı5)      $Áÿ6Åş6$   $òÿ
+Ğ’Ğ¾Ğ¹Ñ‚Ğ¸™ı61   $äÿ16(ÿ6A   $ĞÿCenter=ÿ6O   $ÈÿCenter=ÿ6l   $	Çÿ100¤ş6‡   $Ñÿ30¤ş6“   èÿè#2979FF
+àÿèÿÿÿÿ$æÿ1qı6Ç    ÿ Cursor$
+ Hand‹ÿ6Û   6é   5*      5+      5,      !     M S B A M L   `   `   `  ÿÿÿÿ@  <MailClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nullclr-namespace:MailClientMailClient  5          MailClient.Messages   5      R NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35W SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\ XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35D 9http://schemas.microsoft.com/winfx/2006/xaml/presentation    5      R NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:x,http://schemas.microsoft.com/winfx/2006/xaml     5      Jmc;http://schemas.openxmlformats.org/markup-compatibility/2006     5      @d2http://schemas.microsoft.com/expression/blend/2008     5      %localclr-namespace:MailClient     5        Nş Title$  ListMessagesPage™ı5	      .«ÿ5      ÿ ªÿè#121212.+ÿ5   
+   ‹ş -   5         ‹şName$ MessagesLbx™ı5      
+àÿèÿÿÿÿèÿè#212121$æÿ0qı6O   ³ÿ5      ”ı 5       ”ı 
+TargetType" Šş6   .ÿ5      Ôı  Ôı Property ‰ àÿ Ôı Value
+ èÿÿÿÿ63   Ôı 5       ‰ ßÿ$ Stretch=ÿ6C   Ôı 5       ‰ İÿ$ 10qı60   5       ÿ ContextMenu 5      —ÿ 5      èÿè#212121.@ÿ5      mş -   5        $
+ÊÿOpen™ı5      $¹ÿĞÑ‚ĞºÑ€Ñ‹Ñ‚ÑŒ™ı6+   
+àÿèÿÿÿÿ6_   mş 5      -   5        $ÊÿAnswer™ı5      $¹ÿĞÑ‚Ğ²ĞµÑ‚Ğ¸Ñ‚ÑŒ™ı6-   
+àÿèÿÿÿÿ6b   5      5      5      5      !u     M S B A M L   `   `   `  ÿÿÿÿ	  MailClient    MailClient.ReadMail   5      R NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35W SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\ XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35D 9http://schemas.microsoft.com/winfx/2006/xaml/presentation    5      R NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:x,http://schemas.microsoft.com/winfx/2006/xaml     5      Jmc;http://schemas.openxmlformats.org/markup-compatibility/2006     5      @d2http://schemas.microsoft.com/expression/blend/2008     5      _ [MaterialDesignThemes.Wpf, Version=4.9.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962aFmaterialDesign1http://materialdesigninxaml.net/winfx/xaml/themes  5        Nş Title$  ReadLetterPage™ı5	      .«ÿ5      ÿ ªÿè#121212 ÿ ColumnDefinitions 5   
+   ¦ÿ 5      $
+óÿ0.3* ÿ6   ¦ÿ 5       ÿ RowDefinitions 5   
+   ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      .+ÿ5   
+   şı œÿè#212121$Ãÿ0Åş6#   $Âÿ2Åş63   $Áÿ0Åş6G   $Àÿ3Åş6T   ‚ı 5   
+   $ÈÿCenter=ÿ6   $
+—ÿ16pt(ÿ6/   $ĞÿCenter=ÿ6?   $Ãÿ0Åş6\   $Áÿ0Åş6l   $’ÿ	ĞšĞ¾Ğ¼Ñƒ:™ı6y   
+“ÿèÿÿÿÿ6†   ‚ı 5   
+   $ÈÿCenter=ÿ6   $
+—ÿ16pt(ÿ6/   $ĞÿCenter=ÿ6?   $Ãÿ0Åş6\   $Áÿ1Åş6l   $’ÿĞÑ‚ ĞºĞ¾Ğ³Ğ¾:™ı6y   
+“ÿèÿÿÿÿ6‰   ‚ı 5   
+   $ÈÿCenter=ÿ6   $
+—ÿ16pt(ÿ60   $ĞÿCenter=ÿ6@   $Ãÿ0Åş6]   $Áÿ2Åş6m   $’ÿ	Ğ¢ĞµĞ¼Ğ°:™ı6z   
+“ÿèÿÿÿÿ6‡   ‚ı 5   
+   -   5        $ÊÿToWhom™ı5   s    ‚ı Padding$ 5qı6   
+“ÿèÿÿÿÿ™ÿè#212121$ÈÿCenter=ÿ6H   $
+—ÿ14pt(ÿ6c   $Ãÿ1Åş6   $Áÿ0Åş6‘   ‚ı 5    
+   -   5        $ÊÿFromWhom™ı5    s   $ 5qı6   
+“ÿèÿÿÿÿ$ÈÿCenter=ÿ63   $
+—ÿ14pt(ÿ6N   ™ÿè#212121$Ãÿ1Åş6ƒ   $Áÿ1Åş6“   ‚ı 5!   
+   -   5        $Êÿ
+SubjectTbx™ı5!   s   $ 5qı6   
+“ÿèÿÿÿÿ$ÈÿCenter=ÿ63   $
+—ÿ14pt(ÿ6N   ™ÿè#212121$Ãÿ1Åş6…   $Áÿ2Åş6•   Éÿ 5"   
+   -   5        $ÊÿReturnBT™ı5"   O   èÿè#2979FFçÿè#212121
+àÿèÿÿÿÿ$Ãÿ0Åş6_   $Áÿ8Åş6o   òÿ6|   0  *MaterialDesignThemes.Wpf.PackIconExtension     Kind$ 	ArrowBack=ÿ   Size$ 25Xş6¸   Éÿ 5#   
+   -   5        $ÊÿAnswerBT™ı5#   O   èÿè#2979FFçÿè#212121
+àÿèÿÿÿÿ$Ãÿ1Åş6_   $Áÿ8Åş6o   òÿ6|     $ Reply=ÿ$ 25Xş6´   ñı 5$   
+   -   5        $Êÿ
+MessageRtb™ı5$   +   èÿè#212121$Áÿ3Åş6=    €ı 
+IsReadOnly . $Ãÿ0Åş6\   $Âÿ2Åş6l   $Àÿ5Åş6€   
+àÿèÿÿÿÿ ÿ 	Resources 5%       ”ı 
+TargetType	 Ôı Property
+ Ôı Valueôı%X   'Jş       ”ı 5&      " Jş6   .ÿ5'      Ôı 	 ‰@ÜÿMargin$
+ 0qı6/   5(      5)      5*      5+      5,      !>     M S B A M L   `   `   `  ÿÿÿÿ@  <MailClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nullclr-namespace:MailClientMailClient  5          MailClient.SendMail   5      R NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35W SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\ XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35D 9http://schemas.microsoft.com/winfx/2006/xaml/presentation    5      R NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:x,http://schemas.microsoft.com/winfx/2006/xaml     5      Jmc;http://schemas.openxmlformats.org/markup-compatibility/2006     5      @d2http://schemas.microsoft.com/expression/blend/2008     5      _ [MaterialDesignThemes.Wpf, Version=4.9.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962aFmaterialDesign1http://materialdesigninxaml.net/winfx/xaml/themes  5      localclr-namespace:MailClient  5        Nş Title$  SendLetterPage™ı5
+      .«ÿ5      ÿ ªÿè#121212 ÿ ColumnDefinitions 5   
+   ¦ÿ 5      $
+óÿ0.3* ÿ6   ¦ÿ 5      ¦ÿ 5      $óÿ0.15* ÿ6    ÿ RowDefinitions 5   
+   ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      .+ÿ5   
+   şı $Ãÿ0Åş6   $Âÿ3Åş6$   $Áÿ0Åş68   $Àÿ2Åş6E   œÿè#2121216V   ‚ı 5   
+   $	ÈÿTop=ÿ6   $
+—ÿ16pt(ÿ6,   $ĞÿCenter=ÿ6<   $Áÿ1Åş6Y   $’ÿ	ĞšĞ¾Ğ¼Ñƒ:™ı6f   $Ïÿ0,8,0,0qı6s   
+“ÿèÿÿÿÿ6„   ‚ı 5   
+   $	ÈÿTop=ÿ6   $
+—ÿ16pt(ÿ6,   $ĞÿCenter=ÿ6<   $’ÿ	Ğ¢ĞµĞ¼Ğ°:™ı6Y   $Ïÿ0,9,0,0qı6f   
+“ÿèÿÿÿÿ6w   ¤ÿ 5    
+   -   5         ¤ÿName$ ComboBx™ı5       )  #MaterialDesignThemes.Wpf.HintAssist   Hint$ Ğ¯Ñ‰Ğ¸Ğº™ı6$   $İÿ5qı6J   $äÿ10.5pt(ÿ6V   àÿè#DAD7CD$Áÿ0Åş6}   $Ãÿ2Åş6Š   $Ïÿ3,8,2,0qı6š   èÿè#2B579A$	ÈÿTop=ÿ6À    Kş ZIndex$ 5Åş6Ø   .@ÿ5!      £ÿ $òÿGoogle™ı6   
+ ÿ Tag$ smtp.gmail.com™ı6,   £ÿ 5"      $
+òÿMail™ı6   $ smtp.mail.ru™ı6*   £ÿ 5#      $òÿYandex™ı6   $ smtp.yandex.ru™ı6,   £ÿ 5$      $òÿRambler™ı6   $ smtp.rambler.ru™ı6-   5%      ı 5&   
+   -   5        $ÊÿToTbx™ı5&   F   $İÿ5qı6   $	ÈÿTop=ÿ6   $
+äÿ14pt(ÿ66   $Ãÿ1Åş6S   $Áÿ1Åş6c   $+ %Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¾Ñ‚Ğ¿Ñ€Ğ°Ğ²Ğ¸Ñ‚ĞµĞ»Ñ™ı6p   $Ïÿ0,4,0,0qı6¥   èÿè#212121
+àÿèÿÿÿÿ6Ë   ı 5'   
+   -   5        $Êÿ
+SubjectTbx™ı5'   F   $İÿ5qı6   $	ÈÿTop=ÿ6   $
+äÿ14pt(ÿ66   $Âÿ3Åş6X   $ Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‚ĞµĞ¼Ñƒ™ı6l   $Ïÿ	164,5,2,0qı6š   èÿè#212121
+àÿèÿÿÿÿ6Â   Éÿ 5(   
+   -   5        $ÊÿReturnBT™ı5(      $Ãÿ0Åş6!   $Áÿ8Åş61   $òÿ
+ĞĞ°Ğ·Ğ°Ğ´™ı6>   $Âÿ2Åş6e   $Ïÿ
+0,18,551,0qı6y   èÿè#2B579A
+àÿèÿÿÿÿ6¢   Éÿ 5)   
+   -   5        $ÊÿSendBT™ı5)      $Ãÿ1Åş6   $Âÿ2Åş6/   $Áÿ8Åş6C   $òÿĞÑ‚Ğ¿Ñ€Ğ°Ğ²Ğ¸Ñ‚ÑŒ™ı6P   $Ïÿ0,18,0,0qı6y   èÿè#2B579A
+àÿèÿÿÿÿ6    `ı 5*   
+   $Áÿ2Åş6   $Ãÿ0Åş6#   $Âÿ3Åş63    `ı 
+Background è#2121215+      ı 5,   
+   -   5        $Êÿ
+MessageRtb™ı5,      èÿè#212121$
+äÿ12pt(ÿ69   $' !Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ¾Ğ¾Ğ±Ñ‰ĞµĞ½Ğ¸Ğµ™ı6I    €ı 
+AcceptsTab . $Áÿ3Åş6   $Ãÿ0Åş6›   $Âÿ3Åş6«   $Àÿ6Åş6¿   $Ïÿ0,0,0,32qı6Ğ   
+àÿèÿÿÿÿ.ÿ6õ   5-      5.      5/      !·     M S B A M L   `   `   `  ÿÿÿÿ@  <MailClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nullclr-namespace:MailClientMailClient  5   	       MailClient.UserWindow   5   	   R NWindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35W SPresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\ XPresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35D 9http://schemas.microsoft.com/winfx/2006/xaml/presentation    5   	   R NSystem.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:x,http://schemas.microsoft.com/winfx/2006/xaml     5   	   @d2http://schemas.microsoft.com/expression/blend/2008     5   	   Jmc;http://schemas.openxmlformats.org/markup-compatibility/2006     5   	   _ [MaterialDesignThemes.Wpf, Version=4.9.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962aFmaterialDesign1http://materialdesigninxaml.net/winfx/xaml/themes  5   	   localclr-namespace:MailClient  5   	     ı Title$  
+UserWindow™ı5	   	   èÿè#121212$	Ñÿ450¤ş61   $	Çÿ800¤ş6>    ı WindowStartupLocation$ CenterScreen=ÿ6J   .òÿ5
+      ÿ  ÿ ColumnDefinitions 5   
+   ¦ÿ 5      ¦ÿ 5      $óÿ4* ÿ6    ÿ RowDefinitions 5   
+   ãı 5      ãı 5      ãı 5      ãı 5      ãı 5      .+ÿ5   
+   ‹ş -   5         ‹şName$ 
+FoldersLbx™ı5      $Áÿ1Åş6&   $Ãÿ0Åş63   $Àÿ4Åş6C   èÿè#212121$æÿ0qı6i   ³ÿ5      ”ı 5       ”ı 
+TargetType" Šş6   .ÿ5      Ôı  Ôı Property ‰ àÿ Ôı Value
+ èÿÿÿÿ63   5      5      Éÿ 5   
+   -   5         ÉÿName$
+ Send™ı5      $
+òÿSend™ı6   $Ñÿ45¤ş6.   $Ãÿ0Åş6:   $ÈÿCenter=ÿ6J   +  %MaterialDesignThemes.Wpf.ButtonAssist	   CornerRadius$	 8‘ÿ6e   $Ïÿ	38,0,26,0qı6’   èÿè#2979FF
+àÿèÿÿÿÿ$æÿ0qı6à   
+ ÿ 	Resources
+ 5      ôı%R   '‚ı       ”ı 5      " ‚ı6   .ÿ5       Ôı  ‰ —ÿ$ 16(ÿ61   5!      5"      5#       ÿ 5$   
+   -   5          ÿName$ 	PageFrame™ı5$      $Áÿ0Åş6#   $Ãÿ1Åş60   $Àÿ5Åş6@     ÿ NavigationUIVisibility$ Hidden=ÿ6Q   5%      5&      
